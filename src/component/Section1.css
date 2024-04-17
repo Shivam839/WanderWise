@@ -1,0 +1,22 @@
+.mainComponent {
+  box-sizing: border-box;
+  margin: 10px 20px 10px 40px;
+  width: 94%;
+  height: 100vh;
+  background-image: url("/images/img1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /* opacity: 0.7; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mainComponent h1 {
+  opacity: 1;
+  color: white;
+  text-shadow: 5px 5px 10px rgba(255, 0, 0, 0.5); /* Adjust shadow color and opacity */
+  text-transform: capitalize;
+  font-size: 15vh;
+}

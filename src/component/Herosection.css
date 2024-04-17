@@ -1,0 +1,46 @@
+#herosec {
+  width: 90%;
+  margin: 30px 30px 10px 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  box-shadow: 5px 5px 10px black;
+  padding: 10px 20px;
+}
+.textSection {
+  width: 40%;
+}
+.emailSection {
+  width: 40%;
+}
+.emailSection label {
+  font-size: 2rem;
+  position: relative;
+}
+.emailSection input {
+  /* border-radius: 10px; */
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid red;
+  outline: none;
+}
+.emailSection textarea {
+  /* border-radius: 10px; */
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid red;
+  outline: none;
+}
+.emailSection label::after {
+  content: "";
+  position: absolute;
+  top: 13px;
+  left: -5px;
+  border: 1px solid red;
+  height: 28px;
+  /* width: 100px; */
+  color: red;
+}
